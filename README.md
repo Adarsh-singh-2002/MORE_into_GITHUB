@@ -29,6 +29,8 @@ git stash pop
 
 git stash clear
 
+cat fileName
+
 <h4>GITHUB</h4>
 
 git remote add origin URL_OF_REPO
@@ -43,7 +45,14 @@ git checkout feature
 
 git merge feature
 
- 
+git remote -v
+
+git clone URL
+
+git fetch --all --prune
+
+git rebase -i hashcode_of_commit
+
 
 
 
